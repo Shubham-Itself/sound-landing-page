@@ -2878,6 +2878,15 @@ a{
 	color: var(--white-color);
 	margin-bottom: 20px;
 }
+@media screen and (max-width:767px) {
+	.serviceTb{
+		display: none;
+	}
+	.campusTb{
+		margin-bottom: 10px !important;
+	}
+	
+}
 
 .footer-links p{
 	color: var(--white-color);
